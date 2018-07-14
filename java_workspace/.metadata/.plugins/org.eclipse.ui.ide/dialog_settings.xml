@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\workspace\msgProUTF8"/>
+			<item value="F:\workspace\ex1024"/>
+			<item value="F:\workspace\ex2"/>
+			<item value="F:\workspace\daxiao"/>
+			<item value="F:\workspace\web19"/>
+			<item value="F:\workspace\java_web_ajax"/>
+			<item value="F:\workspace\UserMag"/>
+			<item value="F:\workspace\JavaWeb1"/>
+			<item value="F:\workspace\ajax"/>
+			<item value="F:\workspace\WEB13"/>
+			<item value="F:\workspace\javaWebPro"/>
+			<item value="F:\workspace\实验一"/>
+			<item value="F:\workspace\b_ex"/>
+			<item value="F:\workspace\ex4_14030413"/>
+			<item value="F:\workspace\ex4"/>
+			<item value="G:\myex1"/>
+			<item value="F:\workspace\Third"/>
+			<item value="F:\workspace\exe"/>
+			<item value="F:\workspace\ex"/>
+			<item value="F:\workspace\test1"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="F:\workspace\daxiao"/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="656" key="DIALOG_X_ORIGIN"/>
+		<item value="316" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,29 @@
+package com.Muz.servie;
+
+import com.untity.User;
+import com.untity.Userdao;
+
+public class UserServie {
+	Userdao user=new Userdao();
+
+	public Boolean isExist(String num) {
+		// TODO Auto-generated method stub
+		Boolean bool = user.isExist(num);
+		return bool;
+	}
+
+	public Boolean logCheck(String num, String password) {
+		// TODO Auto-generated method stub
+		Boolean bool = user.logCheck(num, password);
+		return bool;
+	}
+
+	public int Add(User user) {
+		// TODO Auto-generated method stub
+		System.out.println(user.getSex());
+		int count=user.Add(user);
+		return count;
+	}
+
+
+}

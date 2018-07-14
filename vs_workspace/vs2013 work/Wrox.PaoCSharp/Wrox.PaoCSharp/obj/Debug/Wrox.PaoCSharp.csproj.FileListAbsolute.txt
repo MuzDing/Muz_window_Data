@@ -1,0 +1,2 @@
+F:\vs2013 work\Wrox.PaoCSharp\Wrox.PaoCSharp\bin\Debug\Wrox.PaoCSharp.exe.config
+F:\vs2013 work\Wrox.PaoCSharp\Wrox.PaoCSharp\obj\Debug\Wrox.PaoCSharp.csprojResolveAssemblyReference.cache

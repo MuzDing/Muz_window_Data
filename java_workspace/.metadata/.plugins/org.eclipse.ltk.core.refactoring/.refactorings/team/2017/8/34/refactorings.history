@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from 项目“team”&#x0D;&#x0A;－ 原始项目：“team”&#x0D;&#x0A;－ 原始元素：“team.test1.java”" description="删除元素" element1="/src&lt;team{test1.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1503662499440" subPackages="false" version="1.0"/>&#x0A;<refactoring comment="将编译单元“team.test1.java”重命名为“Main.java”&#x0D;&#x0A;－ 原始项目：“team”&#x0D;&#x0A;－ 原始元素：“team.test1.java”&#x0D;&#x0A;－ 重命名的元素：“team.Main.java”" description="重命名编译单元“test1.java”" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;team{test1.java" name="Main.java" references="false" stamp="1503663880697" version="1.0"/>
+</session>

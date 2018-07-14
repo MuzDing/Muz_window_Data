@@ -1,0 +1,167 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@page import="com.untity.User"%>
+<%@page import="java.util.List"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<link rel="stylesheet" href="CSS/index.css" type="text/css">
+<body>
+	<%
+		String rs = (String) request.getAttribute("rs");
+		String rs1 = (String) request.getAttribute("rs1");
+		List<User> list = (List) request.getAttribute("list");
+		String num = (String) request.getAttribute("num");
+		String count = (String) request.getAttribute("count");
+		User u = (User) request.getAttribute("person");
+	%>
+	<form action="SelectByNum">
+		请输入账号： <input type="text" name="num"> <input type="submit"
+			value="查询">
+	</form>
+	<a href="selectAll">查询所有并分页显示</a>
+
+
+
+	<%
+		if (u != null) {
+			if (u.getUserPhone() == null) {
+				out.print("不存在该用户！");
+			} else {
+	%>
+	<table border="1" style="border-collapse: collapse">
+		<tr>
+			<th style="width: 100px">账号</th>
+			<th style="width: 100px">密码</th>
+			<th style="width: 100px">状态</th>
+		</tr>
+		<tr>
+			<td id="num"><%=u.getUserPhone()%></td>
+			<td id="password"><%=u.getUserPassword()%></td>
+			<td id="state"><%=u.getState()%></td>
+		</tr>
+		<tr>
+			<td colspan="3"><a style="cursor: pointer;"
+				onclick="OpenDiv2(<%=u.getUserPhone()%>)">修改</a>&nbsp&nbsp&nbsp<a
+				href=DeleteServlet?num= <%=u.getUserPhone()%>>删除</</a></td>
+		</tr>
+	</table>
+	<%
+		}
+		}
+	%>
+
+
+	<%
+		if (rs != null) {
+			if (rs.equals("1")) {
+				out.print("删除成功！");
+			}
+			if (rs.equals("0")) {
+				out.print("删除失败！");
+			}
+		}
+	%>
+
+
+	<%
+		if (rs1 != null) {
+			if (rs1.equals("1")) {
+				out.print("修改成功！");
+			}
+			if (rs1.equals("0")) {
+				out.print("修改失败！");
+			}
+		}
+	%>
+
+
+	<%
+		if (list != null) {
+	%>
+	<table border="1" style="border-collapse: collapse">
+		<tr>
+			<th style="width: 100px">账号</th>
+			<th style="width: 100px">密码</th>
+			<th style="width: 100px">状态</th>
+		</tr>
+		<%
+			for (User user : list) {
+		%>
+		<tr>
+			<td><%=user.getUserPhone()%></td>
+			<td><%=user.getUserPassword()%></td>
+			<td><%=user.getState()%></td>
+		</tr>
+
+		<%
+			}
+		%>
+	</table>
+	<%
+		if (num.equals("2")) {
+	%>
+	上一页
+
+	<%
+		} else {
+	%>
+	<a href=up?num= <%=num%>>上一页</a>
+	<%
+		}
+	%>
+	<%
+		if (!num.equals(count)) {
+	%>
+	<a href=selectAll?num= <%=num%>>下一页</a>
+	<%
+		} else {
+	%>
+	下一页<%
+		}
+	%>
+	这是第<%=Integer.parseInt(num) - 1%>页
+	<%
+		for (int i = 1; i <= Integer.parseInt(count) - 1; i++) {
+				if ((Integer.parseInt(num) - 1) == i) {
+					out.print(i);
+				} else {
+	%>
+
+	<a href=page?page= <%=i%>><%=i%></a>
+	<%
+		}
+			}
+		}
+	%>
+
+
+	<form id="keyen2" name="form2" action="" method="post">
+		<button type="button" class="close" onclick="Iclose()">&times;</button>
+		<br> <br> <label>密码：</label><br> <input class="text"
+			type="text" id="king" name="king"><br> <label>状态：</label><br>
+		<input class="text" id="sta" type="text" name="sta"><br>
+		<br> <input class="button" type="submit" value="提交修改">
+	</form>
+
+
+
+</body>
+<script type="text/javascript">
+		function OpenDiv2(listID) {
+			document.getElementById("keyen2").style.display = "block";
+			document.getElementById("keyen2").action="ChangeUser?num="+listID;
+			document.getElementById("king").value=document.getElementById("password").innerHTML;
+			document.getElementById("sta").value=document.getElementById("state").innerHTML;
+		};
+		function Iclose() {
+			document.getElementById("keyen2").style.display = "none";
+		}
+		
+		
+	</script>
+</html>

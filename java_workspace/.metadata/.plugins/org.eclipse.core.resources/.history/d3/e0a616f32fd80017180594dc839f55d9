@@ -1,0 +1,8 @@
+package com.Muz.servie;
+
+import com.untity.Userdao;
+
+public class UserServie {
+	Userdao user=new Userdao();
+
+}

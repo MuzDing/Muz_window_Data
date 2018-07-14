@@ -1,0 +1,6 @@
+F:\vs2013 work\p4_1\p4_1\bin\Debug\p4_1.exe.config
+F:\vs2013 work\p4_1\p4_1\obj\Debug\p4_1.csprojResolveAssemblyReference.cache
+F:\vs2013 work\p4_1\p4_1\bin\Debug\p4_1.exe
+F:\vs2013 work\p4_1\p4_1\bin\Debug\p4_1.pdb
+F:\vs2013 work\p4_1\p4_1\obj\Debug\p4_1.exe
+F:\vs2013 work\p4_1\p4_1\obj\Debug\p4_1.pdb

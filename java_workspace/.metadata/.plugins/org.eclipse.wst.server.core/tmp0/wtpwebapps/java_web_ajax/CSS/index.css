@@ -1,0 +1,26 @@
+body{
+	text-align:center;
+}
+
+table{
+	margin:0 auto;
+}
+#keyen2{
+	width:200px;
+	height:220px;
+	border:none;
+	display:none;
+	margin:50px auto;
+	background-color:rgba(245, 245, 245, 1);
+}
+.close{
+ float:right;
+border:none;
+}
+a{
+	text-decoration:none;
+	color:blue;
+}
+a:hover{
+	color:red;
+}

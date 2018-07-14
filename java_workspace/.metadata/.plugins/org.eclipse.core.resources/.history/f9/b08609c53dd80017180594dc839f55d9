@@ -1,0 +1,49 @@
+package com.servlet;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.untity.User;
+import com.Muz.dao.Userdao;
+
+
+@WebServlet("/pageServlet")
+public class pageServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doPost(request, response);
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String page1=request.getParameter("page");
+		String count="";
+		Userdao userdao=new Userdao();
+		int page=Integer.parseInt(page1);
+		List<User> list=userdao.getPageContent(page);
+		try {
+			count=userdao.getCount();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		int i=Integer.parseInt(page1)+1;
+		int j=Integer.parseInt(count)/3+2;
+		String mi=i+"";
+		String mcount=j+"";
+		request.setAttribute("list", list);
+		request.setAttribute("num", mi);
+		request.setAttribute("count", mcount);
+		request.getRequestDispatcher("index.jsp").forward(request, response);
+	}
+
+}

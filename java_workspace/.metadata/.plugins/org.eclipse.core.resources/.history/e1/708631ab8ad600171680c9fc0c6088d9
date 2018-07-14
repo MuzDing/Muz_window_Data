@@ -1,0 +1,53 @@
+package com.Muz.demo;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class HtmlServlet
+ */
+@WebServlet("/html")
+public class HtmlServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    /**
+     * Default constructor. 
+     */
+    public HtmlServlet() {
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.setContentType("text/html;charset=UTF-8");
+		PrintWriter writer = response.getWriter();
+		//动态的响应html页面
+		writer.write("<!DOCTYPE html>");
+		writer.write("<html>");
+		writer.write("<head>");
+		writer.write("<meta charset='UTF-8'>");
+		writer.write("<title>Insert title here</title>");
+		writer.write("</head>");
+		writer.write("<body>");
+		writer.write("<h1>这个页面很繁琐</h1>");
+		writer.write("</body>");
+		writer.write("</html>");
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

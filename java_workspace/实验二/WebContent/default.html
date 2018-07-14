@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript" src="JS/jquery-1.4.1.js"></script>
+
+<script type="text/javascript">
+
+
+	$(document).ready(function() {
+		alert("aa");
+	});
+	
+
+	$(function() {
+		
+		
+		//根据HTML标签来获取控件
+		//$("div").css({color:"red",backgroundColor:"gray"});
+		
+		//根据属性来获取控件
+		//$("input[name='txtTeacherName']").css({color:"yellow",backgroundColor:"gray"});
+		//var strTeacherName=$("input[name='txtTeacherName']").val();
+		//alert(strTeacherName);		
+		
+		//给按钮注册单击事件
+		$("#btnLogin").click(function(){
+			//获取用户输入的账号和密码
+			var strUserID;
+			var strUserPWD;
+			
+			//根据标签的ID号获取控件
+			strUserID=$("#txtUserID").val();
+			strUserPWD=$("#txtUserPWD").val();
+			
+			if((strUserID=="001")&&(strUserPWD=="00")){
+				window.open("index.html","_blank");//"_self"
+			}
+			else{
+				alert("用户账号或密码输入有误，请重新输入！");
+			}
+		});
+		
+		//输入框的焦点离开的时候执行的事件
+		$("#txtUserID").blur(function(){
+			var strUserID;
+			
+			strUserID=$("#txtUserID").val();
+			alert(strUserID);
+			
+		});
+		
+		//判断用户是否合法
+		$("#btnUserCheck").click(function(){
+			
+		});
+		
+	});
+	
+	
+	
+	
+	
+</script>
+
+
+
+</head>
+<body>
+
+	<div>
+
+		账号 <input id="txtUserID" type="text" value="123" />
+		 <br>密码 <input id="txtUserPWD" type="text" value="" /> 
+		 <br><input id="btnLogin" type="button" value="登录"  />
+	</div>
+	
+	<input id="txtName" type="text" name="txtTeacherName"/>
+	
+	<input id="btnUserCheck" type="button" value="判断用户是否合法"  />
+</body>
+</html>

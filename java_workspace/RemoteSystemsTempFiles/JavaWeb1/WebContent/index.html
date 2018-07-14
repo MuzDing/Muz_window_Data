@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript" src="JS/JScript.js"></script>
+
+<script type="text/javascript">
+	function ShowUserID() {
+
+		var userID;
+		var divInnerHTML;
+		var divInnerText;
+
+		userID = document.getElementById("txtUserID").value;
+		divInnerHTML = document.getElementById("divTest").innerHTML;
+		divInnerText = document.getElementById("divTest").innerText;
+
+		alert(userID);
+		alert(divInnerHTML);
+		alert(divInnerText);
+	}
+	
+	function ChangLink()
+	{
+		
+		document.getElementById("HyLink").innerHTML="百度";
+		document.getElementById("HyLink").href="http://www.baidu.cn";
+	
+	}
+</script>
+</head>
+<body>
+
+	<input id="Button1" type="button" value="求m~n之间的和" onclick="QH(1,10)" />
+	<input id="Button2" type="button" value="求数字转为星期" onclick="NumToWeek()" />
+
+	<form id="form1" runat="server">
+		<div>
+
+			账号 <input id="txtUserID" type="text" value="123" /> 密码 <input
+				id="txtUserPWD" type="text" value="" /> <input id="Button3"
+				type="button" value="DOM获取控件里的值" onclick="ShowUserID()" />
+		</div>
+
+		<div id="divTest">
+			<span style="color: Red">789</span>
+		</div>
+
+<a id="HyLink" href="http://www.czu.cn">常州工学院</a>
+<input id="Button4"	type="button" value="通过DOM改变超链接" onclick="ChangLink()" />
+
+
+
+	</form>
+
+
+</body>
+</html>

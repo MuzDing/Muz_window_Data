@@ -1,0 +1,36 @@
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.pdb
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.exe
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.pdb
+K:\ProC# 4.0\code\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe
+K:\ProC# 4.0\code\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.pdb
+K:\ProC# 4.0\code\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\ProC# 4.0\code\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.exe
+K:\ProC# 4.0\code\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.pdb
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe.config
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.pdb
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.csprojResolveAssemblyReference.cache
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.exe
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.pdb
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe.CodeAnalysisLog.xml
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe.lastcodeanalysissucceeded
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe.config
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.pdb
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.csprojResolveAssemblyReference.cache
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.exe
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.pdb
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe.config
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.pdb
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.csprojResolveAssemblyReference.cache
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.exe
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.pdb
+F:\vs2013 work\text\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe.config
+F:\vs2013 work\text\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.exe
+F:\vs2013 work\text\Generics\GenericsSamples\DocumentManager\bin\Debug\DocumentManager.pdb
+F:\vs2013 work\text\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.csprojResolveAssemblyReference.cache
+F:\vs2013 work\text\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.exe
+F:\vs2013 work\text\Generics\GenericsSamples\DocumentManager\obj\x86\Debug\DocumentManager.pdb

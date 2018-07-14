@@ -1,0 +1,6 @@
+F:\vs2013 work\p2_1\p2_1\bin\Debug\p2_1.exe.config
+F:\vs2013 work\p2_1\p2_1\bin\Debug\p2_1.exe
+F:\vs2013 work\p2_1\p2_1\bin\Debug\p2_1.pdb
+F:\vs2013 work\p2_1\p2_1\obj\Debug\p2_1.csprojResolveAssemblyReference.cache
+F:\vs2013 work\p2_1\p2_1\obj\Debug\p2_1.exe
+F:\vs2013 work\p2_1\p2_1\obj\Debug\p2_1.pdb

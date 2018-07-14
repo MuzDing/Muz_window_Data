@@ -1,0 +1,5 @@
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\InterpreterModelingProjectLib\bin\Debug\InterpreterModelingProjectLib.dll
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\InterpreterModelingProjectLib\bin\Debug\InterpreterModelingProjectLib.pdb
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\InterpreterModelingProjectLib\obj\Debug\InterpreterModelingProjectLib.dll
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\InterpreterModelingProjectLib\obj\Debug\InterpreterModelingProjectLib.pdb
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\InterpreterModelingProjectLib\obj\Debug\InterpreterModelingProjectLib.csprojResolveAssemblyReference.cache

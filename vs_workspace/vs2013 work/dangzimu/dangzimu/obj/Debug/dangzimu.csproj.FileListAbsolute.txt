@@ -1,0 +1,9 @@
+F:\vs2013 work\dangzimu\dangzimu\bin\Debug\dangzimu.exe.config
+F:\vs2013 work\dangzimu\dangzimu\bin\Debug\dangzimu.exe
+F:\vs2013 work\dangzimu\dangzimu\bin\Debug\dangzimu.pdb
+F:\vs2013 work\dangzimu\dangzimu\obj\Debug\dangzimu.csprojResolveAssemblyReference.cache
+F:\vs2013 work\dangzimu\dangzimu\obj\Debug\dangzimu.Form1.resources
+F:\vs2013 work\dangzimu\dangzimu\obj\Debug\dangzimu.Properties.Resources.resources
+F:\vs2013 work\dangzimu\dangzimu\obj\Debug\dangzimu.csproj.GenerateResource.Cache
+F:\vs2013 work\dangzimu\dangzimu\obj\Debug\dangzimu.exe
+F:\vs2013 work\dangzimu\dangzimu\obj\Debug\dangzimu.pdb

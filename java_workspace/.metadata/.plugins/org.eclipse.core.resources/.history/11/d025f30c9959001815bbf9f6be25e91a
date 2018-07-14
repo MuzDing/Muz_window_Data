@@ -1,0 +1,5 @@
+package com.muz.bean;
+
+public class Car {
+
+}

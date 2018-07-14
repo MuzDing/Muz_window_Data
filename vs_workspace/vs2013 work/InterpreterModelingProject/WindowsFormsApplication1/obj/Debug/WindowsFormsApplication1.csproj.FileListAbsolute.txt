@@ -1,0 +1,14 @@
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\bin\Debug\InterpreterModelingProjectLib.dll
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\bin\Debug\InterpreterModelingProjectLib.pdb
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\ZHYANG\Documents\Visual Studio 2012\Projects\考研数据结构\InterpreterModelingProject\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+F:\vs2013 work\InterpreterModelingProject\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+F:\vs2013 work\InterpreterModelingProject\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+F:\vs2013 work\InterpreterModelingProject\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

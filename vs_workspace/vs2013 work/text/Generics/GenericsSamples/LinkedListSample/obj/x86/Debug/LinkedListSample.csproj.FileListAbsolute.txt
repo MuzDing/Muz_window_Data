@@ -1,0 +1,36 @@
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.pdb
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.exe
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.pdb
+K:\ProC# 4.0\code\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe
+K:\ProC# 4.0\code\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.pdb
+K:\ProC# 4.0\code\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\ProC# 4.0\code\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.exe
+K:\ProC# 4.0\code\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.pdb
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.exe
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.pdb
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe.config
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.pdb
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.csprojResolveAssemblyReference.cache
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe.CodeAnalysisLog.xml
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe.lastcodeanalysissucceeded
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe.config
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.exe
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.pdb
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.pdb
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.csprojResolveAssemblyReference.cache
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe.config
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.exe
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.pdb
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.pdb
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.csprojResolveAssemblyReference.cache
+F:\vs2013 work\text\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe.config
+F:\vs2013 work\text\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.exe
+F:\vs2013 work\text\Generics\GenericsSamples\LinkedListSample\bin\Debug\LinkedListSample.pdb
+F:\vs2013 work\text\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.exe
+F:\vs2013 work\text\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.pdb
+F:\vs2013 work\text\Generics\GenericsSamples\LinkedListSample\obj\x86\Debug\LinkedListSample.csprojResolveAssemblyReference.cache

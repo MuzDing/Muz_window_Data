@@ -1,0 +1,15 @@
+package Test;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestSpring {
+	@Test
+	public void fun() {
+		//创建容器对象
+		ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+		//让容器常见user 对象
+		//打印user对象
+	}
+}

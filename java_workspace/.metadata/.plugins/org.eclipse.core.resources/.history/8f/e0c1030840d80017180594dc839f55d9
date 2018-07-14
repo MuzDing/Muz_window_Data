@@ -1,0 +1,231 @@
+package com.Muz.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.catalina.LifecycleListener;
+import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.apache.tomcat.websocket.server.WsHandshakeRequest;
+
+import com.untity.DataSourceUtils;
+import com.untity.User;
+import com.untity.getConnection;
+
+
+public class Userdao {
+
+
+	public Boolean logCheck(String num, String password) {
+//		QueryRunner runner = new QueryRunner();
+//		Connection conn = DataSourceUtils.getConnection();
+//		String sql = "update account set money=money-? where name=?";
+//		runner.update(conn, sql, money,out);
+//		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+//		String sql = "select * from product";
+//		List<Product> productList = null;
+//		try {
+//			productList = runner.query(sql, new BeanListHandler<Product>(Product.class));
+//		} catch (SQLException e) {
+//			e.printStackTrace();
+//		}
+		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+		String sql="select * from user where num=? and password=?";
+		List<User> user = null;
+		try {
+			user = runner.query(sql, new BeanListHandler<User>(User.class),num,password);
+		} catch (SQLException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		if(user != null) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		
+	}
+
+	
+
+	public int Add(User user) {
+//		QueryRunner runner = new QueryRunner();
+//		Connection conn = DataSourceUtils.getConnection();
+//		String sql = "update account set money=money-? where name=?";
+//		runner.update(conn, sql, money,out);
+//		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+//		String sql = "select * from product";
+//		List<Product> productList = null;
+//		try {
+//			productList = runner.query(sql, new BeanListHandler<Product>(Product.class));
+//		} catch (SQLException e) {
+//			e.printStackTrace();
+//		}
+		System.out.println(user.getSex()+user.getHobby());
+		
+		
+		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+		String sql="insert into user values(?,?,?,?,?,?,?,?)";
+		int count= 0;
+		try {
+			count = runner.update(sql,user.getName(),user.getUserPhone(),user.getUserPassword(),user.getAge(),user.getSex(),user.getHobby(),user.getSheng(),user.getShi());
+		} catch (SQLException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		return count;
+			
+	}
+
+	public int deleteByNum(String num) {
+		
+//		QueryRunner runner = new QueryRunner();
+//		Connection conn = DataSourceUtils.getConnection();
+//		String sql = "update account set money=money-? where name=?";
+//		runner.update(conn, sql, money,out);
+//		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+//		String sql = "select * from product";
+//		List<Product> productList = null;
+//		try {
+//			productList = runner.query(sql, new BeanListHandler<Product>(Product.class));
+//		} catch (SQLException e) {
+//			e.printStackTrace();
+//		}	
+		
+		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+		String sql="delete from user where num=?";
+		int count= 0;
+		try {
+			count = runner.update(sql,num);
+		} catch (SQLException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		return count;
+
+	}
+
+	public List<User> selectByNum(String num) {
+		
+//		QueryRunner runner = new QueryRunner();
+//		Connection conn = DataSourceUtils.getConnection();
+//		String sql = "update account set money=money-? where name=?";
+//		runner.update(conn, sql, money,out);
+//		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+//		String sql = "select * from product";
+//		List<Product> productList = null;
+//		try {
+//			productList = runner.query(sql, new BeanListHandler<Product>(Product.class));
+//		} catch (SQLException e) {
+//			e.printStackTrace();
+//		}	
+		List<User> list=null;
+		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+		String sql="select * from user where num like +?";
+		int count= 0;
+		try {
+			list = runner.query(sql, new BeanListHandler<User>(User.class),num);
+		} catch (SQLException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		return list;
+		
+//		
+//		Connection con = null;
+//		try {
+//			con = getConnection.link();
+//		} catch (SQLException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//		PreparedStatement ps=null;
+//		ResultSet rs=null;
+//		String sql="select * from user where num like '%"+num+"%'";
+//		List<User> list=new ArrayList<>();
+//		
+//		try {
+//			ps = con.prepareStatement(sql);
+//			rs=ps.executeQuery();
+//			while(rs.next()){
+//				User user=new User();
+//				user.setName(rs.getString(1));
+//				user.setUserPhone(rs.getString(2));
+//				user.setUserPassword(rs.getString(3));
+//				user.setAge(rs.getString(4));
+//				user.setSex(rs.getString(5));
+//				user.setHobby(rs.getString(6));
+//				user.setSheng(rs.getString(7));
+//				user.setShi(rs.getString(8));
+//				list.add(user);
+//			}
+//		} catch (SQLException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		return list;
+	}
+
+	public int updatePas(String num, String password) {
+		
+//		QueryRunner runner = new QueryRunner();
+//		Connection conn = DataSourceUtils.getConnection();
+//		String sql = "update account set money=money-? where name=?";
+//		runner.update(conn, sql, money,out);
+//		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+//		String sql = "select * from product";
+//		List<Product> productList = null;
+//		try {
+//			productList = runner.query(sql, new BeanListHandler<Product>(Product.class));
+//		} catch (SQLException e) {
+//			e.printStackTrace();
+//		}	
+		
+		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+		String sql="update user set password=? where num=?";
+		int count= 0;
+		try {
+			count = runner.update(sql,password,num);
+		} catch (SQLException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		return count;
+	}
+
+	public Boolean isExist(String num) {
+//		QueryRunner runner = new QueryRunner();
+//		Connection conn = DataSourceUtils.getConnection();
+//		String sql = "update account set money=money-? where name=?";
+//		runner.update(conn, sql, money,out);
+//		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+//		String sql = "select * from product";
+//		List<Product> productList = null;
+//		try {
+//			productList = runner.query(sql, new BeanListHandler<Product>(Product.class));
+//		} catch (SQLException e) {
+//			e.printStackTrace();
+//		}
+		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+		String sql="select * from user where num=?";
+		List<User> user = null;
+		try {
+			user = runner.query(sql, new BeanListHandler<User>(User.class),num);
+		} catch (SQLException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+		if(user != null) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+}

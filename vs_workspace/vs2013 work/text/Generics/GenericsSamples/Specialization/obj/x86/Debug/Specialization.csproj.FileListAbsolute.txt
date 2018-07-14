@@ -1,0 +1,38 @@
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.pdb
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\Specialization\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.exe
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.pdb
+C:\Books\Pro C# 4.0\code\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe.config
+K:\ProC# 4.0\code\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe.config
+K:\ProC# 4.0\code\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe
+K:\ProC# 4.0\code\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.pdb
+K:\ProC# 4.0\code\Generics\GenericsSamples\Specialization\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\ProC# 4.0\code\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.exe
+K:\ProC# 4.0\code\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.pdb
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe.config
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.pdb
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.csprojResolveAssemblyReference.cache
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.exe
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.pdb
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe.CodeAnalysisLog.xml
+C:\Users\christiannagel\Mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe.lastcodeanalysissucceeded
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe.config
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.pdb
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.csprojResolveAssemblyReference.cache
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.exe
+C:\Users\Christian\mesh\Pro C# 5.0\newcode\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.pdb
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe.config
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.pdb
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.csprojResolveAssemblyReference.cache
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.exe
+C:\Users\Christian\SkyDrive\Pro C# 5.0\finalcode\05\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.pdb
+F:\vs2013 work\text\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe.config
+F:\vs2013 work\text\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.exe
+F:\vs2013 work\text\Generics\GenericsSamples\Specialization\bin\Debug\Specialization.pdb
+F:\vs2013 work\text\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.csprojResolveAssemblyReference.cache
+F:\vs2013 work\text\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.exe
+F:\vs2013 work\text\Generics\GenericsSamples\Specialization\obj\x86\Debug\Specialization.pdb

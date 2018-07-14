@@ -1,0 +1,19 @@
+package com.Muz.servie;
+
+import com.untity.Userdao;
+
+public class UserServie {
+	Userdao user=new Userdao();
+
+	public Boolean isExist(String num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Boolean logCheck(String num, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+}

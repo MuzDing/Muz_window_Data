@@ -1,0 +1,14 @@
+name='henny'
+name=name.replace('h', 'p')
+print(name);
+
+len=len(name)
+print(len)
+
+marxes=['a', 'b', 'c']
+temp=', '.join(marxes)
+print(temp)
+
+lol=[['a','b'],['c','d'],['e','f']]
+lol=dict(lol)
+print(lol);

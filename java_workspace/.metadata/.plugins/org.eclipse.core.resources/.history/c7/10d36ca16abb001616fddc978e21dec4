@@ -1,0 +1,120 @@
+package test_3;
+
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
+import javax.swing.JOptionPane;
+
+public class asdasd extends Frame implements Runnable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Frame frame = new Frame();
+		frame.addWindowListener(new WindowAdapter() {
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);
+			}
+		});
+		frame.setVisible(true);
+		frame.setSize(500, 500);
+
+	}
+
+	int state;
+	Button btn_1, btn_2;
+	Thread runner;
+
+	public asdasd() {
+		super("µçÌÝÄ£Äâ×°ÖÃ");
+		btn_1 = new Button("2²ã");
+		btn_2 = new Button("1²ã");
+
+		setLayout(null);
+	//	btn_1.setBounds(450, 350, 50, 50);
+	//	btn_2.setBounds(450, 400, 50, 50);
+		add(btn_1); add(btn_2);
+		pack();
+		setLocationRelativeTo(null);
+
+		btn_1.addMouseListener(new MouseAdapter() {
+			public void mouseClicked(MouseEvent arg0) {
+				state = 1;
+			//	painted = true;
+				runner = new Thread(new asdasd());
+				runner.start();
+			}
+		});
+		btn_2.addMouseListener(new MouseAdapter() {
+			public void mouseClicked(MouseEvent arg0) {
+				state = -1;
+			//	painted = true;
+				runner = new Thread(new asdasd());
+				runner.start();
+
+			}
+		});
+
+	}
+
+	boolean painted = false;
+	int xpos;
+	public void init() {
+		xpos = 500;
+	}
+
+	public void run() {
+		while (painted) {
+			if (state == 1 && xpos == 500) {
+				System.out.print(painted);
+				for (; xpos > 299; xpos -= 1) {
+					repaint();
+					System.out.println(xpos);
+					try {
+						Thread.sleep(20);
+					} catch (InterruptedException e) {
+					}
+				}
+				if (painted)
+					painted = false;
+
+			}
+
+			else if (state == -1 && xpos == 500) {
+				for (xpos = 300; xpos < 501; xpos += 1) {
+					repaint();
+					System.out.println(xpos);
+					try {
+						Thread.sleep(20);
+					} catch (InterruptedException e) {
+					}
+				}
+				if (painted)
+					painted = false;
+			}
+		}
+	}
+
+	public void start() {
+
+	}
+
+	public void stop() {
+
+	}
+
+
+/*	public void paint(Graphics g) {
+		this.setSize(600, 700);
+		g.setColor(Color.black);
+		g.drawRect(200, 200, 200, 400);
+		g.drawLine(200, 400, 400, 400);
+		g.setColor(Color.white);
+		g.setColor(Color.red);
+		g.fillRect(250, xpos, 100, 100);
+		painted = true;
+
+	}*/
+}

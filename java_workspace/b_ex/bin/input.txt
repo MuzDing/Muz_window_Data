@@ -1,0 +1,12 @@
+var a，b，c：integer；
+a=10;
+b=1;
+c=10;
+begin
+  while a>b do
+    begin
+      if (a+b>c) then c=c-1
+      a=a-1;
+      b=b+1
+    end
+end
