@@ -1106,6 +1106,11 @@ pydoc|F:\Python\Lib\pydoc.py
 pydoc_data.__init__|F:\Python\Lib\pydoc_data\__init__.py
 pydoc_data.topics|F:\Python\Lib\pydoc_data\topics.py
 pyexpat|F:\Python\DLLs\pyexpat.pyd
+pymouse.__init__|C:\Users\Administrator\AppData\Roaming\Python\Python36\site-packages\pymouse\__init__.py
+pymouse.java_|C:\Users\Administrator\AppData\Roaming\Python\Python36\site-packages\pymouse\java_.py
+pymouse.mac|C:\Users\Administrator\AppData\Roaming\Python\Python36\site-packages\pymouse\mac.py
+pymouse.unix|C:\Users\Administrator\AppData\Roaming\Python\Python36\site-packages\pymouse\unix.py
+pymouse.windows|C:\Users\Administrator\AppData\Roaming\Python\Python36\site-packages\pymouse\windows.py
 pytest
 python3|F:\Python\python3.dll
 python36|F:\Python\python36.dll

@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.Muz.dao.AdminProductDao"/>
-<fullyQualifiedTypeName name="java.util.UUID"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="org.apache.commons.beanutils.BeanUtils"/>
-<fullyQualifiedTypeName name="java.lang.reflect.InvocationTargetException"/>
-<fullyQualifiedTypeName name="com.Muz.servce.AdminProductService"/>
-<fullyQualifiedTypeName name="com.Muz.domain.Category"/>
-<fullyQualifiedTypeName name="com.Muz.vo.Condition"/>
-<fullyQualifiedTypeName name="com.Muz.dao.ProductDao"/>
-<fullyQualifiedTypeName name="com.Muz.vo.PageBean"/>
 <fullyQualifiedTypeName name="com.Muz.utils.DataSourceUtils"/>
 <fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.ScalarHandler"/>
 <fullyQualifiedTypeName name="com.google.gson.Gson"/>
@@ -48,11 +38,26 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.Muz.servce.ProductService"/>
 <fullyQualifiedTypeName name="com.Muz.domain.CartItem"/>
 <fullyQualifiedTypeName name="com.Muz.domain.Product"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="com.muz.bean.User"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="javax.swing.JTree"/>
+<fullyQualifiedTypeName name="javax.swing.event.TreeWillExpandListener"/>
+<fullyQualifiedTypeName name="javax.swing.event.TreeExpansionListener"/>
+<fullyQualifiedTypeName name="javax.swing.tree.DefaultTreeModel"/>
+<fullyQualifiedTypeName name="javax.swing.event.TreeSelectionListener"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.swing.tree.DefaultMutableTreeNode"/>
+<fullyQualifiedTypeName name="test.test730"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JTextArea"/>
+<fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
+<fullyQualifiedTypeName name="java.awt.dnd.DropTarget"/>
+<fullyQualifiedTypeName name="java.awt.dnd.DnDConstants"/>
+<fullyQualifiedTypeName name="java.awt.datatransfer.DataFlavor"/>
 </qualifiedTypeNameHistroy>
